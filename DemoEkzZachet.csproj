@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\picture.jpg" />
+    <None Remove="Assets\Болгарское наследие.jpg" />
+    <None Remove="Assets\Волшебный Восток.jpg" />
+    <None Remove="Assets\Город с большими амбициями.jpg" />
+    <None Remove="Assets\Город четырех ворот.jpg" />
+    <None Remove="Assets\Древний Минск.jpg" />
+    <None Remove="Assets\Жемчужина Татарстана.jpg" />
+    <None Remove="Assets\Знакомьтесь, Амстердам!.jpg" />
+    <None Remove="Assets\Из Алании к загадочным пещерам Алтынбешик.jpg" />
+    <None Remove="Assets\Многоликий Сувон.jpg" />
+    <None Remove="Assets\Москва поэтическая.jpg" />
+    <None Remove="Assets\Незабываемый Дели.jpg" />
+    <None Remove="Assets\По старому Таллину.jpg" />
+    <None Remove="Assets\Романтика белых ночей и разводных мостов.jpg" />
+    <None Remove="Assets\Свидание с Хельсинки.jpg" />
+    <None Remove="Assets\Сердце Ирана.jpg" />
+    <None Remove="Assets\Сердце Северной Карелии.jpg" />
+    <None Remove="Assets\Старый город.jpg" />
+    <None Remove="Assets\Столица страны Утренней Свежести.jpg" />
+    <None Remove="Assets\Страна идеальной гармонии.jpg" />
+    <None Remove="Assets\Туры фото\Болгарское наследие.jpg" />
+    <None Remove="Assets\Туры фото\Волшебный Восток.jpg" />
+    <None Remove="Assets\Туры фото\Город с большими амбициями.jpg" />
+    <None Remove="Assets\Туры фото\Город четырех ворот.jpg" />
+    <None Remove="Assets\Туры фото\Древний Минск.jpg" />
+    <None Remove="Assets\Туры фото\Жемчужина Татарстана.jpg" />
+    <None Remove="Assets\Туры фото\Знакомьтесь, Амстердам!.jpg" />
+    <None Remove="Assets\Туры фото\Из Алании к загадочным пещерам Алтынбешик.jpg" />
+    <None Remove="Assets\Туры фото\Многоликий Сувон.jpg" />
+    <None Remove="Assets\Туры фото\Москва поэтическая.jpg" />
+    <None Remove="Assets\Туры фото\Незабываемый Дели.jpg" />
+    <None Remove="Assets\Туры фото\По старому Таллину.jpg" />
+    <None Remove="Assets\Туры фото\Романтика белых ночей и разводных мостов.jpg" />
+    <None Remove="Assets\Туры фото\Свидание с Хельсинки.jpg" />
+    <None Remove="Assets\Туры фото\Сердце Ирана.jpg" />
+    <None Remove="Assets\Туры фото\Сердце Северной Карелии.jpg" />
+    <None Remove="Assets\Туры фото\Старый город.jpg" />
+    <None Remove="Assets\Туры фото\Столица страны Утренней Свежести.jpg" />
+    <None Remove="Assets\Туры фото\Страна идеальной гармонии.jpg" />
+    <None Remove="Assets\Туры фото\Урбанистическая Бразилия.jpg" />
+    <None Remove="Assets\Туры фото\Финская крепость.jpg" />
+    <None Remove="Assets\Туры фото\Финский романтизм.jpg" />
+    <None Remove="Assets\Урбанистическая Бразилия.jpg" />
+    <None Remove="Assets\Финская крепость.jpg" />
+    <None Remove="Assets\Финский романтизм.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.2.4" />
+    <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="11.1.5" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.4" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.4" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.4" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.2.4" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.4" />
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.3" />
+  </ItemGroup>
+</Project>

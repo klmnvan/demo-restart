@@ -1,0 +1,88 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:DemoEkzZachet.ViewModels"
+			 xmlns:conv="using:DemoEkzZachet.Converters"
+			 x:DataType="vm:ListProductVM"
+             x:Class="DemoEkzZachet.ListProductView">
+
+	<UserControl.Resources>
+		<conv:ImageConverter x:Key="imgConv"/>
+	</UserControl.Resources>
+
+	<Grid RowDefinitions="Auto, *" Margin="30">
+
+		<StackPanel Grid.Row="0">
+			<Grid ColumnDefinitions="2*, 1*, 1*">
+
+				<StackPanel Grid.Column="0">
+					<TextBox Watermark="Введите для поиска" Text="{Binding Search}"/>
+				</StackPanel>
+
+				<StackPanel Grid.Column="1" Margin="10 0">
+					<ComboBox HorizontalAlignment="Stretch"
+						ItemsSource="{Binding SortTypes}" SelectedIndex="{Binding SelectSortType}"/>
+				</StackPanel>
+
+				<StackPanel Grid.Column="2">
+					<ComboBox HorizontalAlignment="Stretch"
+						ItemsSource="{Binding FilterTypes}" SelectedIndex="{Binding SelectFilerType}">
+						<ComboBox.ItemTemplate>
+							<DataTemplate>
+								<TextBlock Text="{Binding TypeName}"/>
+							</DataTemplate>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+				</StackPanel>
+				
+			</Grid>
+		</StackPanel>
+
+		<ScrollViewer Grid.Row="1">
+			<ListBox ItemsSource="{Binding ToursPreview}">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Grid ColumnDefinitions="Auto, *, Auto">
+
+							<StackPanel Grid.Column="0">
+								<Image Height="100" Width="100" Source="{Binding ImagePreview, Converter={StaticResource ResourceKey=imgConv}}"/>
+							</StackPanel>
+
+							<StackPanel Grid.Column="1">
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="IdNavigation.Type"/>
+									<TextBlock Text=" | "/>
+									<TextBlock Text="{Binding Name}"/>
+								</StackPanel>
+								<TextBlock Text="{Binding TicketCount, StringFormat=' {0} - количество билетов'}"/>
+								<StackPanel Orientation="Horizontal">
+									<TextBlock Text="Материалы: " />
+									<ItemsRepeater ItemsSource="{Binding ToursTypes}">
+										<ItemsRepeater.Layout>
+											<StackLayout Spacing="5" Orientation="Horizontal" />
+										</ItemsRepeater.Layout>
+										<ItemsRepeater.ItemTemplate>
+											<DataTemplate>
+												<TextBlock Text="{Binding Type.TypeName}" />
+											</DataTemplate>
+										</ItemsRepeater.ItemTemplate>
+									</ItemsRepeater>
+								</StackPanel>
+							</StackPanel>
+
+							<StackPanel Grid.Column="2">
+								<TextBlock Text="{Binding Price}"/>
+							</StackPanel>
+							
+						</Grid>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			
+		</ScrollViewer>
+		
+	</Grid>
+	
+</UserControl>
