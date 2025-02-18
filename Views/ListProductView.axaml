@@ -4,14 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:vm="using:DemoEkzZachet.ViewModels"
-			 x:DataType="vm:ListProductVM"
-             x:Class="DemoEkzZachet.ListProductView"
 			 xmlns:conv="using:DemoEkzZachet.Converters"
-			 >
+			 x:DataType="vm:ListProductVM"
+             x:Class="DemoEkzZachet.ListProductView">
 
 	<UserControl.Resources>
 		<conv:ImageConverter x:Key="imgConv"/>
 	</UserControl.Resources>
+
 
 	<Grid RowDefinitions="Auto, *" Margin="30">
 
@@ -48,7 +48,7 @@
 						<Grid ColumnDefinitions="Auto, *, Auto">
 
 							<StackPanel Grid.Column="0">
-								<Image Height="100" Width="100" Source="{Binding ImagePreview, Converter={StaticResource ResourceKey=imgConv}}"/>
+								<Image Width="100" Height="100" Source="{Binding ImagePreview, Converter={StaticResource ResourceKey=imgConv}}"/>
 							</StackPanel>
 
 							<StackPanel Grid.Column="1">
