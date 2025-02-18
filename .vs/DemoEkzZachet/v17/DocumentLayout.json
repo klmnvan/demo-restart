@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\views\\listproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:views\\listproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\demoekzzachet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:demoekzzachet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\views\\listproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:views\\listproductview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|d:\\vs prodjects\\1_bilet\\demoekzzachet\\styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{174549AC-7A56-430F-B29F-A791D09495ED}|DemoEkzZachet.csproj|solutionrelative:styles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,32 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DemoEkzZachet",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\DemoEkzZachet.csproj",
-              "RelativeDocumentMoniker": "DemoEkzZachet.csproj",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\DemoEkzZachet.csproj",
-              "RelativeToolTip": "DemoEkzZachet.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T20:56:46.067Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tour.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Tour.cs",
-              "RelativeDocumentMoniker": "Models\\Tour.cs",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Tour.cs",
-              "RelativeToolTip": "Models\\Tour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
+              "DocumentIndex": 0,
+              "Title": "Type.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Type.cs",
+              "RelativeDocumentMoniker": "Models\\Type.cs",
+              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Type.cs",
+              "RelativeToolTip": "Models\\Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:41:08.581Z",
+              "WhenOpened": "2025-02-18T00:13:46.046Z",
               "EditorCaption": ""
             },
             {
@@ -82,84 +53,33 @@
               "RelativeDocumentMoniker": "Converters\\ImageConverter.cs",
               "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Converters\\ImageConverter.cs",
               "RelativeToolTip": "Converters\\ImageConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:38:09.797Z",
+              "WhenOpened": "2025-02-17T21:34:37.485Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListProductVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\ViewModels\\ListProductVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListProductVM.cs",
+              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\ViewModels\\ListProductVM.cs",
+              "RelativeToolTip": "ViewModels\\ListProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:31:06.694Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Type.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Type.cs",
-              "RelativeDocumentMoniker": "Models\\Type.cs",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Type.cs",
-              "RelativeToolTip": "Models\\Type.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:32:39.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.axaml",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\App.axaml",
-              "RelativeDocumentMoniker": "App.axaml",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\App.axaml",
-              "RelativeToolTip": "App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T20:09:42.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ListProductView.axaml",
               "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Views\\ListProductView.axaml",
               "RelativeDocumentMoniker": "Views\\ListProductView.axaml",
               "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Views\\ListProductView.axaml",
               "RelativeToolTip": "Views\\ListProductView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T19:22:57.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "Models\\Hotel.cs",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Models\\Hotel.cs",
-              "RelativeToolTip": "Models\\Hotel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:19:33.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Styles.axaml",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Styles.axaml",
-              "RelativeDocumentMoniker": "Styles.axaml",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\Styles.axaml",
-              "RelativeToolTip": "Styles.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T19:15:43.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListProductVM.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\ViewModels\\ListProductVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ListProductVM.cs",
-              "ToolTip": "D:\\VS prodjects\\1_bilet\\DemoEkzZachet\\ViewModels\\ListProductVM.cs",
-              "RelativeToolTip": "ViewModels\\ListProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:05:44.613Z",
+              "WhenOpened": "2025-02-17T21:29:43.762Z",
               "EditorCaption": ""
             }
           ]

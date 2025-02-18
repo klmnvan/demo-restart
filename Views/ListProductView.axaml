@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 			 xmlns:vm="using:DemoEkzZachet.ViewModels"
-			 xmlns:conv="using:DemoEkzZachet.Converters"
 			 x:DataType="vm:ListProductVM"
-             x:Class="DemoEkzZachet.ListProductView">
+             x:Class="DemoEkzZachet.ListProductView"
+			 xmlns:conv="using:DemoEkzZachet.Converters"
+			 >
 
 	<UserControl.Resources>
 		<conv:ImageConverter x:Key="imgConv"/>
