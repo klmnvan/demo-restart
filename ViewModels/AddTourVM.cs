@@ -21,6 +21,14 @@ namespace DemoEkzZachet.ViewModels
             _type = Types.FirstOrDefault(); //инициализируем первый
         }
 
+        public AddTourVM(Tour tour)
+        {
+            Tour = MainWindowViewModel.Context.Tours.FirstOrDefault(it => it == tour);
+            Types = MainWindowViewModel.Context.Types.ToList(); //получаем список всех типов
+            _type = Types.FirstOrDefault(); //инициализируем первый
+            ToursTypes = Tour.ToursTypes.ToList();
+        }
+
         public Tour Tour
         {
             get => _tour;
@@ -32,9 +40,12 @@ namespace DemoEkzZachet.ViewModels
             get => _type;
             set 
             {
-                Tour.ToursTypes.Add(new ToursType { Tour = this.Tour, Type = value }); 
-                ToursTypes = Tour.ToursTypes.ToList();
-                this.RaiseAndSetIfChanged(ref _type, value);
+                if(!Tour.ToursTypes.Any(it => it.Type == value))
+                {
+                    Tour.ToursTypes.Add(new ToursType { Tour = this.Tour, Type = value });
+                    ToursTypes = Tour.ToursTypes.ToList();
+                    this.RaiseAndSetIfChanged(ref _type, value);
+                }
             }
         }
 
@@ -64,6 +75,12 @@ namespace DemoEkzZachet.ViewModels
                 MainWindowViewModel.Context.Tours.Add(Tour);
                 MainWindowViewModel.Context.SaveChanges();
                 await MessageBoxManager.GetMessageBoxStandard("а", "добавли", MsBox.Avalonia.Enums.ButtonEnum.Ok).ShowAsync();
+                MainWindowViewModel.Instance.CurrentPage = new ListProductView();
+            }
+            else
+            {
+                MainWindowViewModel.Context.SaveChanges();
+                await MessageBoxManager.GetMessageBoxStandard("а", "редакт", MsBox.Avalonia.Enums.ButtonEnum.Ok).ShowAsync();
                 MainWindowViewModel.Instance.CurrentPage = new ListProductView();
             }
         }

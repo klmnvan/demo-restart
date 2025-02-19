@@ -77,6 +77,8 @@
 								<StackPanel Orientation="Horizontal">
 									<Button Content="Редактировать" Command="{Binding $parent[UserControl].((vm:ListProductVM)DataContext).GoEdit}"
 											CommandParameter="{Binding}"/>
+									<Button Content="Удалить" Command="{Binding $parent[UserControl].((vm:ListProductVM)DataContext).Delete}"
+											CommandParameter="{Binding}"/>
 								</StackPanel>
 							</StackPanel>
 

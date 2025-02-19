@@ -105,12 +105,21 @@ namespace DemoEkzZachet.ViewModels
 
         public void GoEdit(Tour tour)
         {
-            MainWindowViewModel.Instance.CurrentPage = new ProductEditorView(tour);
+            MainWindowViewModel.Instance.CurrentPage = new AddTourView(tour);
         }
 
         public void Add()
         {
             MainWindowViewModel.Instance.CurrentPage = new AddTourView();
+        }
+
+        public void Delete(Tour tour)
+        {
+            if(MainWindowViewModel.Context.Tours.Contains(tour)) {
+                MainWindowViewModel.Context.Tours.Remove(tour);
+                MainWindowViewModel.Context.SaveChanges();
+                MainWindowViewModel.Instance.CurrentPage = new ListProductView();
+            }
         }
 
     }

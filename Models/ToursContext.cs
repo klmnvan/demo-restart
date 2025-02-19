@@ -102,13 +102,14 @@ public partial class ToursContext : DbContext
 
             entity.HasOne(d => d.Tour).WithMany(p => p.ToursTypes)
                 .HasForeignKey(d => d.TourId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("tours_type_tours_fk");
 
             entity.HasOne(d => d.Type).WithMany(p => p.ToursTypes)
                 .HasForeignKey(d => d.TypeId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("tours_type_type_fk");
+            
         });
 
         modelBuilder.Entity<TypeEntity>(entity =>
