@@ -39,6 +39,9 @@
 				</StackPanel>
 				
 			</Grid>
+			
+			<Button Command="{Binding Add}" Content="Добавить"/>
+			
 		</StackPanel>
 
 		<ScrollViewer Grid.Row="1">
@@ -70,6 +73,10 @@
 											</DataTemplate>
 										</ItemsRepeater.ItemTemplate>
 									</ItemsRepeater>
+								</StackPanel>
+								<StackPanel Orientation="Horizontal">
+									<Button Content="Редактировать" Command="{Binding $parent[UserControl].((vm:ListProductVM)DataContext).GoEdit}"
+											CommandParameter="{Binding}"/>
 								</StackPanel>
 							</StackPanel>
 

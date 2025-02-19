@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DemoEkzZachet.Models;
 
-public partial class Type
+public partial class TypeEntity
 {
     public int Id { get; set; }
 

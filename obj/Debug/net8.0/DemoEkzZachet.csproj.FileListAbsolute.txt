@@ -191,3 +191,6 @@ D:\VS prodjects\1_bilet\DemoEkzZachet\obj\Debug\net8.0\refint\Avalonia\DemoEkzZa
 D:\VS prodjects\1_bilet\DemoEkzZachet\bin\Debug\net8.0\Npgsql.dll
 D:\VS prodjects\1_bilet\DemoEkzZachet\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\VS prodjects\1_bilet\DemoEkzZachet\bin\Debug\net8.0\Avalonia.Controls.ItemsRepeater.dll
+D:\VS prodjects\1_bilet\DemoEkzZachet\obj\Debug\net8.0\DemoEkzZachet.sourcelink.json
+D:\VS prodjects\1_bilet\DemoEkzZachet\bin\Debug\net8.0\DialogHost.Avalonia.dll
+D:\VS prodjects\1_bilet\DemoEkzZachet\bin\Debug\net8.0\MsBox.Avalonia.dll

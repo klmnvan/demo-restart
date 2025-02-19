@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:DemoEkzZachet.ViewModels"
+			 x:DataType="vm:ProductEditorVM"
+             x:Class="DemoEkzZachet.Views.ProductEditorView">
+
+	<StackPanel>
+		<Button Content="Назад" Command="{Binding GoBack}"/>
+		<TextBlock Text="Редактирование"/>
+		<TextBox Watermark="Название" Text="{Binding CurrentTour.Name}"/>
+		<TextBox Watermark="Описание" Text="{Binding CurrentTour.Description}" TextWrapping="Wrap"/>
+		<NumericUpDown Watermark="Количество билетов" Value="{Binding CurrentTour.TicketCount}" Minimum="0" Increment="0.01"/>
+		<ComboBox ItemsSource="{Binding Types}" SelectedItem="{Binding CurrentTourType}">
+			<ComboBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding TypeName}"/>
+				</DataTemplate>
+			</ComboBox.ItemTemplate>
+		</ComboBox>
+		<TextBlock Text="Типы:"/>
+		<ListBox ItemsSource="{Binding CurrentToursTypes}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel>
+						<TextBlock Text="{Binding Type.TypeName}"/>
+						<Button Content="Удалить" Command="{Binding $parent[UserControl].((vm:ProductEditorVM)DataContext).DeleteType}"
+												CommandParameter="{Binding}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<Button Content="Сохранить" Command="{Binding Save}"/>
+	</StackPanel>
+	
+</UserControl>

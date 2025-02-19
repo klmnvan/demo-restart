@@ -23,7 +23,7 @@ public partial class ToursContext : DbContext
 
     public virtual DbSet<ToursType> ToursTypes { get; set; }
 
-    public virtual DbSet<Type> Types { get; set; }
+    public virtual DbSet<TypeEntity> Types { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -111,7 +111,7 @@ public partial class ToursContext : DbContext
                 .HasConstraintName("tours_type_type_fk");
         });
 
-        modelBuilder.Entity<Type>(entity =>
+        modelBuilder.Entity<TypeEntity>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("type_pk");
 
